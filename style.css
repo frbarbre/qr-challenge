@@ -1,0 +1,58 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --attribute-color: hsl(228, 45%, 44%);
+  --body-font-size: 15px;
+  --attribute-font-size: 11px;
+  --outfit: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--outfit);
+}
+
+main {
+  background-color: var(--light-grey);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section {
+  width: 18.75rem;
+  background-color: var(--white);
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+main section img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+main section article {
+  text-align: center;
+  padding-block: 1.5rem;
+  padding-inline: 1rem;
+}
+main section article h1 {
+  padding-bottom: 1rem;
+  color: var(--dark-blue);
+}
+main section article p {
+  font-size: var(--body-font-size);
+  color: var(--grayish-blue);
+}
+main footer {
+  padding-top: 2rem;
+  font-size: var(--attribute-font-size);
+  text-align: center;
+}
+main footer a {
+  color: var(--attribute-color);
+}/*# sourceMappingURL=style.css.map */
